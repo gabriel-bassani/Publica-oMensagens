@@ -1,0 +1,25 @@
+yarn init
+yarn add express
+yarn add -D @types/express typescript ts-node-dev
+yarn tsc --init
+yarn add dotenv
+yarn add axios
+yarn add @types/axios -D
+yarn add jsonwebtoken
+yarn add @types/jsonwebtoken -D
+yarn prisma migrate dev
+yarn add socket.io
+yarn add @types/socket.io -D
+yarn add cors
+yarn add @types/cors -D
+
+
+GITHUB_CLIENT_SECRET=d983902601172817f82231db3ab20f7cab99c1b9
+GITHUB_CLIENT_ID=1936f416c0038f96d4f4
+JWT_SECRET=0846712391290
+
+
+mobile
+GITHUB_CLIENT_SECRET=e87bc34110dc4f6d35df145a72573e519d4b213b
+GITHUB_CLIENT_ID=a5ed00437c7b23e72c81
+JWT_SECRET=0846712391290
